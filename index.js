@@ -1,4 +1,9 @@
 /* multi line comment */
+//console blue = int ! console string black or red
+//var -> over ridable
+//let (only use within function->within curly bracket -> block level ->if u make in fucntion u can only use in function)
+//const (never changeable value of the const assgn variable )
+
 
 // 1.WAYS TO PRINT IN JS
 // console.log("Hello World")
@@ -101,6 +106,7 @@
 // console.log(false);
 
 //8.functions() 
+//dry principle = > do not repeat ur self
 // function avg(a,b){
 //    c=(a+b)/2
 //    return c;
@@ -109,6 +115,77 @@
 // c2=avg(14,16);
 // console.log(c1,c2); 
 
+//9.Conditions
+//single if
+// var age = 24;
+// if(age>18){
+//         console.log('you can drink rasna water');
+// }
+//if else
+// var age = 4;
+// if(age>18){
+//         console.log('you can drink rasna water');
+// }
+// else{
+//         console.log("you cannot drink rasna water");
+// }
+//if else ladder
+// var age = 21;
+// if(age>60){
+//         console.log('your should be retired ');
+// }
+// else if(age>30){
+//         console.log("you should have kids now");
+// }
+// else if(age>25){
+//         console.log("you should have get married now");
+// }
+// else{
+//         console.log("you should focus only on study");
+// }
+// console.log("end of ladder")
+
+//10.task
+// make fucntion which took 1 number  in input and tell if u can drink rasna water or not
+// function task(age){
+//         if(age>18){
+//                 console.log("you can drink rasna water");
+//         }
+//         else{
+//                 console.log("you cannot drink rasna water");
+//         }
+// }
+// console.log(task(21))
+
+//11.loop
+//for
+// var arr = [2, 4, 5, 6, 7, 8, 90, 22]
+// console.log(arr);
+// for (var i = 0; i < arr.length; i++) {
+//         console.log(arr[i]);
+// }
+//for each
+// var arr = [2, 4, 5, 6, 7, 8, 90, 22]
+// arr.forEach(function(element){
+//         console.log(element);
+// })
+//while
+// var arr = [2, 4, 5, 6, 7, 8, 90, 22]
+// let j =0;
+// while(j<arr.length){
+//         console.log(arr[j]);
+//         j++;
+// }
+//do-while
+// var arr = [2, 4, 5, 6, 7, 8, 90, 22]
+// let j = 0;
+// do{
+//         console.log(arr[j]);
+//         j++;
+// }
+// while (j < arr.length);
+
+//1:47:00
 
 
 
