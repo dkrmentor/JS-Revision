@@ -185,7 +185,71 @@
 // }
 // while (j < arr.length);
 
-//1:47:00
+//12.BREAK AND CONTINUE
+//break -?poora loop khtm krdo
+// var arr = [1, 2, 3, 4, 5, 6, 7]
+// for (var i = 0; i < arr.length; i++) {
+//         if(i==2){
+//                 break;
+//         }
+//         console.log(arr[i]);
+// }
+//continue -> is itteration ko cancel krdo aur doosri wali shru kro
+// var arr = [1, 2, 3, 4, 5, 6, 7]
+// for (var i = 0; i < arr.length; i++) {
+//         if(i==2){
+//                 continue;
+//         }
+//         console.log(arr[i]);
+// }
+
+//13.methods
+// let myArr = ["fan","camera",33,null,true,undefined]
+// console.log(myArr);
+// console.log(myArr.length);
+// console.log(myArr.pop());
+// myArr.pop();
+// console.log(myArr);
+// myArr.push("Dhara");
+// console.log(myArr);
+// myArr.shift();
+// console.log(myArr);
+// myArr.unshift("hello");
+// console.log(myArr);
+// console.log(myArr.toString());
+// var aa2 = [2,8,23,67,11,44,65,87]
+//it will sort only by first character
+// console.log(aa2.sort());
+// let str ="dhara is a good girl";
+// console.log(str);
+// console.log(str.length)
+// console.log(str.indexOf('is'));
+// console.log(str.lastIndexOf("a"));
+// console.log(str.slice(1,3));
+// console.log(str.replace("dhara","hello"));
+
+//14.date
+// let myDat = new Date();
+// console.log(myDat);
+// console.log(myDat.getTime());
+// console.log(myDat.getFullYear());
+// console.log(myDat.getDay());
+// console.log(myDat.getMinutes());
+// console.log(myDat.getHours());
+
+//15.Dom manipulation
+// console.log(document.getElementById('click'));
+// console.log(document.getElementsByClassName('container'));
+// var b = document.getElementById('click');
+// var c = document.getElementsByClassName('container');
+// c[0].style.background = "brown";
+// c[0].classList.add("bg-red")
+// c[0].classList.add("text-white");
+// c[0].classList.remove("bg-red");
+// console.log(document.getElementsByTagName('div'));
+
+
+// 2:15
 
 
 
