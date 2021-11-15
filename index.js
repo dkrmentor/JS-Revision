@@ -247,26 +247,91 @@
 // c[0].classList.add("text-white");
 // c[0].classList.remove("bg-red");
 // console.log(document.getElementsByTagName('div'));
+// tn=document.getElementsByTagName('div');
+// console.log(tn);
+// var ce= document.createElement('p');
+// ce.innerHTML = "This is a created para";
+// tn[0].appendChild(ce);
+// var ce2= document.createElement('b');
+// ce2.innerHTML = "This is a created bold";
+// tn[0].replaceChild(ce2,ce);
+// removeChild(element)//remove element
 
+//16.Selecting using Query Selector
+// var sel = document.querySelector('.container');
+// console.log(sel);
+// var sel = document.querySelectorAll('.container');
+// console.log(sel);
 
-// 2:15
+// 17.Events
+// window.onload = function(){
+//         console.log('loaded');
+// }
+// function clicked(){
+//        console.log('button click')
+// }
+// firstcontainer.addEventListener('click', function(){
+//         console.log("click on conttainer")
+// })
+// firstcontainer.addEventListener('mouseover', function(){
+//         console.log("hover")
+// })
+// firstcontainer.addEventListener('mouseout', function(){
+//         console.log("mouse out")
+// })
+// firstcontainer.addEventListener('mouseup', function(){
+//         console.log("mouse up")
+// })
+// firstcontainer.addEventListener('mousedown', function(){
+//         console.log("mouse down")
+// })
+// firstcontainer.addEventListener('click', function(){
+//         document.querySelectorAll(".container")[1].innerHTML="<b>clcked ir</b>";
+//         console.log("click on conttainer")
+// })
+// let prev =document.querySelectorAll(".container")[1].innerHTML;
+// firstcontainer.addEventListener('mouseup', function(){
+//         document.querySelectorAll(".container")[1].innerHTML=prev;
+//         console.log("mouse up")
+// })
+// firstcontainer.addEventListener('mousedown', function(){
+//         document.querySelectorAll(".container")[1].innerHTML="<b>new</b>";
+//         console.log("mouse down")
+// })
 
+// 18.arrow function
+// sum = (a,b)=>{
+//         return a+b;
+// }
 
+// 19.Set Timeout and TimeInterval
+// logkaro = ()=>{
+// document.querySelectorAll(".container")[1].innerHTML="<b>settimeout fired</b>";
+//         console.log("abc")
+// }
+// setTimeout(logkaro,2000); 
+// setInterval(logkaro,2000); 
+// clr =setInterval(logkaro,2000); 
+// use clearinterval clearTimeout for clearinhg
 
+// 20.localstorage
+// localStorage.setItem('name','dhara');
+// console.log(localStorage);
+// console.log(localStorage.getItem('name'));
+// console.log(localStorage.removeItem('name'));
+// console.log(localStorage.getItem('name'));
+// console.log(localStorage.clear());
+// console.log(localStorage);
 
+//21.json (require double quotation)
+// obj = {name:"dhara", length:1,a:{this:"that"}}
+// jso=JSON.stringify(obj);
+// console.log(typeof jso);
+// console.log(jso);
+// parsed=JSON.parse(`{name:"dhara", length:1,a:{this:"that"}}`)
+// console.log(parsed);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//js versions => ecma script:( scripting standard )
+//backticks known as template lteral
+// a=34;
+// console.log(`THIS IS MY ${a}`);
